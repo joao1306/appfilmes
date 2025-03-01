@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../../../../assets/font/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-informacoes-filme{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: "roboto";
+    color: white;
+}
+
+.arte-titulo-filme{
+    margin-top: 60px;
+    width: 500px;
+    -webkit-user-drag: none;
+}
+
+.subtitulo-info{
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.idade{
+    border: 2px solid red;
+    border-radius: 100px;
+    width: 50px;
+    text-align: center;
+    user-select: none;
+    transition: all ease .3s;
+}
+
+.idade:hover{
+    background-color: red;
+}
+
+.sinopse{
+    max-width: 400px;
+    text-align: left;
+}
+
+.conteiner-assistir-moreinfo{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botao-play, .botao-moreinfo{
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.botao-moreinfo{
+    width: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+.botao-play{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: red;
+    margin-right: 10px;
+    transition: all ease .3s;
+    color: white;
+}
+
+.botao-play:hover{
+    width: 125px;
+
+}
+
+.icone-play{
+
+}

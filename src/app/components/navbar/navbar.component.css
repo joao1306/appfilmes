@@ -8,12 +8,17 @@
 #navbar{
     width: 100%;
     height: 100px;
+    background: linear-gradient(to bottom, black, transparent);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-inline: 40px;
     box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 #container-logo-menu{
@@ -28,6 +33,7 @@
 #logo-caixa{
     height: 30px;
     cursor: pointer;
+    -webkit-user-drag: none;
 }
 
 #links-menu{
