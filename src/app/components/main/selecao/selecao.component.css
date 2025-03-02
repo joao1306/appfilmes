@@ -1,0 +1,138 @@
+#selecao{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+#selecao::-webkit-scrollbar{
+    display: none;
+}
+
+#container-selecao-thumbs{
+    width: 275px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow-y: scroll;
+    gap: 30px;
+    direction: rtl;
+}
+
+#container-selecao-thumbs::-webkit-scrollbar{
+    width: 5px;
+}
+
+#container-selecao-thumbs::-webkit-scrollbar-track{
+    background-color: rgba(44, 44, 44, 0.849);
+}
+
+#container-selecao-thumbs::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.thumb-filme{
+    width: 230px;
+    min-height: 150px;
+    max-height: 150px;
+    border-radius: 22px;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.icone-thumb{
+    border: 2px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border-style: none;
+    position: absolute;
+    color: white;
+    transition: all ease .2s;
+}
+
+.thumb-filme:hover .icone-thumb{
+    color: red;
+}
+
+.info-thumb{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: -35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.521), transparent);
+    transition: all ease .3s;
+}
+
+.thumbnail{
+    height: 100%;
+}
+
+.nome-thumb{
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+
+
+.duracao-thumb{
+    font-size: 13px;
+}
+
+.thumb-filme:hover .info-thumb{
+    bottom: 0;
+}
+
+#lista-playlists{
+    width: 130px;
+    height: 500px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.item-lista-playlists{
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: white;
+    cursor: pointer;
+    transition: all ease .3s;
+    font-weight: 100;
+}
+
+.item-lista-playlists:hover{
+    font-size: 15.2px;
+    color: red;
+    font-weight: 500;
+    margin-left: 6px;
+}

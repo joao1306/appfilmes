@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-selecao',
   standalone: true,
-  imports: [],
+  imports: [MatIconModule],
   templateUrl: './selecao.component.html',
   styleUrl: './selecao.component.css'
 })
