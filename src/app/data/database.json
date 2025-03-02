@@ -1,0 +1,78 @@
+[{  
+    "title": "Iron Man",
+    "thumb_image": "https://play-lh.googleusercontent.com/proxy/5hMLABfOVOW_TuYlrilT4xLJonglkWXviBeu_l9oWA11fTOeCrtNggG8rrqBbapGBSHPrUy3C5Rurxq3rlC05hixjPWs-xwLDZWG28YeB_8hTVim76Sk=s1920-w1920-h1080",
+    "bg_image": "https://ambrosia.com.br/wp-content/uploads/2013/05/homem-de-ferro-iron-man-wallpaper.jpg",
+    "title_image": "https://www.seekpng.com/png/full/68-685783_iron-man-2-logo-png-iron-man-movie.png",
+    "duracao": "2h 06min",
+    "sinopse": "Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora.",
+    "ano_lancamento": "2008",
+    "f_etaria": "14",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Iron Man 2",
+    "thumb_image": "https://s2.glbimg.com/xuSVSunqprkE68GmugNVy05-fjo=/smart/e.glbimg.com/og/ed/f/original/2021/05/11/mickey-rourke.png",
+    "bg_image": "https://i0.wp.com/cinegrandiose.com/wp-content/uploads/Iron-Man-4.png?resize=960%2C540&ssl=1",
+    "title_image": "https://cdn.marvel.com/content/1x/ironman2_lob_log_03.png",
+    "duracao": "2h 04min",
+    "sinopse": "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas.",
+    "ano_lancamento": "2010",
+    "f_etaria": "14",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Iron Man 3",
+    "thumb_image": "https://i0.wp.com/cinegrandiose.com/wp-content/uploads/Iron-Man-6.png?fit=960%2C540&ssl=1",
+    "bg_image": "https://cinepop.com.br/wp-content/uploads/2023/05/MV5BMTQ1Mjk2OTkxNF5BMl5BanBnXkFtZTcwMDg4NTQ2OA@@._V1_.jpg",
+    "title_image": "https://www.nicepng.com/png/full/532-5324520_hd-marvel-cinematic-universe-movie-logos-iron-man.png",
+    "duracao": "2h 10min",
+    "sinopse": "Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso.",
+    "ano_lancamento": "2013",
+    "f_etaria": "14",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Avengers",
+    "thumb_image": "https://i0.wp.com/cinegrandiose.com/wp-content/uploads/Avengers-1.png?fit=960%2C540&ssl=1",
+    "bg_image": "https://i.ytimg.com/vi/6Z39UAaeKrI/maxresdefault.jpg",
+    "title_image": "https://www.freepnglogos.com/uploads/avengers-png-logo/the-avengers-slot-png-logo-10.png",
+    "duracao": "2h 23min",
+    "sinopse": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes.",
+    "ano_lancamento": "2015",
+    "f_etaria": "12",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Age of Ultron",
+    "thumb_image": "https://s.abcnews.com/images/Entertainment/HT_avengers_ultron_jef_150420_16x9_992.jpg",
+    "bg_image": "https://media.newyorker.com/photos/59096d122179605b11ad7181/16:9/w_1280,c_limit/Brody-The-Avengers.jpg",
+    "title_image": "https://cdn.marvel.com/content/1x/avengersageofultron_lob_log_03.png",
+    "duracao": "2h 21min",
+    "sinopse": "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron.",
+    "ano_lancamento": "2015",
+    "f_etaria": "12",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Guerra Infinita",
+    "thumb_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2018_17/2368221/180319-marvel-infinity-wars-mn-1615.jpg",
+    "bg_image": "https://www.etonline.com/sites/default/files/styles/dist_rss/public/images/2018-04/avengers-infinity-war-benedict-cumberbatch-robert-downey-jr_1.jpg",
+    "title_image": "https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_log_03.png",
+    "duracao": "1h 40min",
+    "sinopse": "Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora.",
+    "ano_lancamento": "2020",
+    "f_etaria": "14",
+    "playlist":"Best Avenger"
+  },
+  {  
+    "title": "Guerra Civil",
+    "thumb_image": "https://variety.com/wp-content/uploads/2016/04/captain-america-civil-war.jpg?w=1000",
+    "bg_image": "https://justkillingti.me/wp-content/2016/05/captain_america__civil_war_trailer_-_h_2015.jpg",
+    "title_image": "https://cdn.marvel.com/content/1x/captainamericacivilwar_lob_log_02_0.png",
+    "duracao": "2h 28min",
+    "sinopse": "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade.",
+    "ano_lancamento": "2016",
+    "f_etaria": "14",
+    "playlist":"Best Avenger"
+  }
+]

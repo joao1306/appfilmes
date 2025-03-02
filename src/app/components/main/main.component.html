@@ -1,7 +1,9 @@
 <div class="main">
-    
-    <img src="https://ambrosia.com.br/wp-content/uploads/2013/05/homem-de-ferro-iron-man-wallpaper.jpg" alt="" class="background-main">
+    <div class="cor-fundo-imagem"></div>
+    <img [src]="currentBgImage"
+         alt=""
+         class="background-main"
+         [class.hidden]="isFading">
     <app-infotitle></app-infotitle>
     <app-selecao></app-selecao>
-    
 </div>

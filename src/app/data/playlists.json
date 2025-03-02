@@ -1,0 +1,45 @@
+[{
+    "nome":"Melhor vingador",
+    "movie_list":[
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Ultron Age",
+        "Civil War",
+        "Ultimato",
+        "Ultimato 2"
+    ]},
+    {
+    "nome":"Filmes ADA",
+    "movie_list":[
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Ultron Age",
+        "Civil War",
+        "Ultimato",
+        "Ultimato 2"
+    ]},
+    {
+    "nome":"Harry Potter",
+    "movie_list":[
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Ultron Age",
+        "Civil War",
+        "Ultimato",
+        "Ultimato 2"
+    ]},
+     {
+    "nome":"Senhor dos Anéis",
+    "movie_list":[
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Ultron Age",
+        "Civil War",
+        "Ultimato",
+        "Ultimato 2"
+    ]}   
+]

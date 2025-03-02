@@ -1,15 +1,15 @@
 <div class="container-informacoes-filme">
    
-    <img src="https://www.seekpng.com/png/full/68-685783_iron-man-2-logo-png-iron-man-movie.png" alt="" class="arte-titulo-filme">
+    <img [src]="(filmeSelecionado$ | async)?.title_image" alt="" class="arte-titulo-filme">
     <div class="subtitulo-info">
-        <p class="ano-lancamento">2020</p>
-        <p class="idade">+14</p>
-        <p class="duracao">1h 40min</p>
+        <p class="ano-lancamento">{{ (filmeSelecionado$ | async)?.ano_lancamento }}</p>
+        <p class="idade">{{ (filmeSelecionado$ | async)?.f_etaria }}</p>
+        <p class="duracao">{{ (filmeSelecionado$ | async)?.duracao }}</p>
     </div>
-    <p class="sinopse">Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora.</p>
+    <p class="sinopse">{{ (filmeSelecionado$ | async)?.sinopse }}</p>
     <div class="conteiner-assistir-moreinfo">
         <button class="botao-play"><mat-icon class="icone-play">play_arrow</mat-icon>Play</button>
-        <button class="botao-moreinfo">More info</button>
+        <button (click)="debug()" class="botao-moreinfo">More info</button>
     </div>
 
 </div>

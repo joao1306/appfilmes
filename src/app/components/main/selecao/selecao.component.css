@@ -20,7 +20,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
     overflow-y: scroll;
     gap: 30px;
     direction: rtl;
@@ -54,7 +54,6 @@
     overflow: hidden;
     cursor: pointer;
 }
-
 
 .icone-thumb{
     border: 2px solid rgb(255, 255, 255);
@@ -102,7 +101,6 @@
     color: white;
 }
 
-
 .duracao-thumb{
     font-size: 13px;
 }
@@ -130,9 +128,43 @@
     font-weight: 100;
 }
 
-.item-lista-playlists:hover{
+.item-lista-playlists:hover, .item-ativo{
     font-size: 15.2px;
     color: red;
     font-weight: 500;
     margin-left: 6px;
+}
+
+#adicionar-playlist{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    color: red;
+    transition: all ease .3s;
+}
+
+#adicionar-playlist:hover{
+    background-color: red;
+    color: white;
+}
+
+#botao-adicionar-filme{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    transition: all ease .3s;
+    cursor:pointer;
+}
+
+#botao-adicionar-filme:hover{
+    width: 60px;
 }

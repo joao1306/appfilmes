@@ -8,6 +8,7 @@
     position: relative;
     padding-inline: 40px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .background-main{
@@ -19,4 +20,20 @@
     z-index: -1;
     opacity: .2;
     -webkit-user-drag: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hidden {
+    opacity: 0; /* Torna a imagem invisível antes da troca */
+}
+
+.cor-fundo-imagem{
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-user-drag: none;
+    background-color: black;
 }
