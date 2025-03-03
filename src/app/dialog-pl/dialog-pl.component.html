@@ -1,0 +1,18 @@
+<div id="dialog-pl">
+    <div id="foto-playlist">
+        <img [src]="form.value.fotoUrl" alt="" id="previa-foto"/>
+    </div>
+    <div id="container-form">
+        <h2 id="titulo-modal-pl">Playlist</h2>
+
+        <form [formGroup]="form" id="formulario-pl">
+            <input type="text" class="input-pl" formControlName="nome" required placeholder="Trilogia do Tobey Maguire">
+            <input type="text" class="input-pl" formControlName="fotoUrl" required placeholder="https://capa-da-sua-playlist.com">
+            <div id="container-botoes-modal-pl">
+                <button class="botao-modal-pl botao-salvar" type="submit" [disabled]="form.invalid">Salvar</button>
+                <button class="botao-modal-pl" type="button" (click)="fechar()">Cancelar</button>
+            </div>
+            
+          </form>
+    </div>    
+</div>

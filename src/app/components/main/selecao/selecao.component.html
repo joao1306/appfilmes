@@ -3,7 +3,7 @@
         <!-- aqui vai o filtro do container -->
          <h2 *ngFor="let item of items" class="item-lista-playlists" (click)="setPlaylist(item.nome)" >{{item.nome}}</h2>
     </div>
-    <button id="adicionar-playlist">+</button>
+    <button (click)="openDialogPl()" id="adicionar-playlist">+</button>
     <div id="container-selecao-thumbs">
         <!-- aqui vão os cards dos filmes -->
          <div *ngFor="let movie of movies" (click)="setFilme(movie.title)" class="thumb-filme">
@@ -14,6 +14,6 @@
                 <p class="nome-thumb"> {{ movie.title }} </p>
             </div>
          </div>
-         <button id="botao-adicionar-filme">+</button>
+         <button (click)="openDialogMv()" id="botao-adicionar-filme">+</button>
     </div>
 </div>
